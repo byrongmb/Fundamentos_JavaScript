@@ -10,3 +10,5 @@ var primeraLetraEnNombre = nombre.charAt(0);
 var nombreCompleto =`${nombre} ${apellido.toLocaleUpperCase}`;
 
 var str = nombre.substr(1,2);
+
+console.log(`${nombre.charAt(nombre.length -1)}`);

@@ -1,0 +1,19 @@
+var edad = 21 
+//edad = edad + 1 incrementar de manera tradicional  
+edad += 1//incrementar en uno de manera corta
+var peso = 62
+//peso = peso -2 //sustraccion de manera tradicional 
+peso -= 2
+var sandwich = 1
+peso += sandwich // con variables declaradas y operacion directa
+var jugarFutbol = 4
+peso -= jugarFutbol // variables declaradas directo
+var precioVino = 200.3// javaScrip opera de una manera singular que decimales 
+//var total = precioVino * 3 
+var total = Math.round(precioVino * 100 * 3) / 100//operacion correcta para resultados de decimales 
+var totalStr = total.toFixed(2) //para poner los decimales que queramos despues de la coma 
+var total2 = parseFloat()  //leer de un string a un decimal en este caso 
+var pizza = 8
+var perona = 2
+var cantidadDePorcionesPorPersona = pizza / perona /*declarando variables y operando con ellas 
+directo despues de declararlas */
