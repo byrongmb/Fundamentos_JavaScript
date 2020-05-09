@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 32 - Promesas</title>
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+  crossorigin="anonymous"></script>
+    <section>
+        <h1>Promesas</h1>
+        <div class="Description-agenda">
+            <p>En esta clase veremos las promesas, que son valores que aun no conocemos. Las promesas tienen tres estados:</p>
+            <ul>
+                <li>pending</li>
+                <li>fullfilled</li>
+                <li>rejected</li>
+            </ul>
+            <p>Las promesas se invocan de la siguiente forma:</p>
+            <pre>
+                <code class="language-js hljs javascript"><span class="hljs-keyword"><span class="hljs-keyword">new</span></span> <span class="hljs-built_in"><span class="hljs-built_in">Promise</span></span>( ( resolve, reject ) =&gt; {
+                <span class="hljs-comment"><span class="hljs-comment">// --- llamado asíncrono</span></span>
+                <span class="hljs-keyword"><span class="hljs-keyword">if</span></span>( todoOK ) {
+                 <span class="hljs-comment"><span class="hljs-comment">// -- se ejecutó el llamado exitosamente</span></span>
+                 resolve()
+              } <span class="hljs-keyword"><span class="hljs-keyword">else</span></span> {
+                 <span class="hljs-comment"><span class="hljs-comment">// -- hubo un error en el llamado</span></span>
+                 reject()
+              }
+            } )
+                </code>
+            </pre>
+            <p>No olvides ver el material adjunto de esta clase.</p>
+        </div>
+    </section>
+    <script src="clase32.js"></script>
+</body>
+</html>
